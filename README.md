@@ -7,7 +7,7 @@ To keep things simple, instead of forking this repository and submitting pull-re
 ## Getting Started
 The project is based on the [HTML5 Boilerplate](https://html5boilerplate.com) template. Please have a look at the [docs](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/TOC.md) to get an idea of how the project is structured, and the purpose of each file.
 
-## 3.4.3 Team assignment. Part 2
+## 3.4.3 Team Assignment - Part 2
 ### Discussions Document
 Discussions are tracked in this [Google Doc](https://docs.google.com/document/d/1fJ3PfOeJkO4sUfozanAx-kHe0t5HLjWwcSEIGTu5heE/edit#).
 
