@@ -5,6 +5,9 @@ Team assignment
 To keep things simple, instead of forking this repository and submitting pull-requests, every authorized collaborator has write access to this single repository. However, instead of directly pushing to the master branch, please create a branch using the scheme `dev-<your username>` and push your commits there. Finally, you can raise a PR into the master branch which will be merged after a minimal review process.
 
 ## 3.4.3 Team assignment. Part 2
+### Discussions Document
+Discussions are tracked in this [Google Doc](https://docs.google.com/document/d/1fJ3PfOeJkO4sUfozanAx-kHe0t5HLjWwcSEIGTu5heE/edit#)
+
 ### Instructions
 #### Markup wireframes with HTML
 Review the three wireframes that you produced for the large screen version of your web site from part 1 of the team project and make any changes that you think would improve them. Work through the wireframes and decide on the correct HTML to build those pages. Think carefully about the use of layout tags such as tables, and only use them where content is really a table. Make sure that all the parts of the pages have a semantic identity, either by using existing semantic tags or by defining "div" tags for the content. Attempt to use a range of the various formatting tags available to add richness and extra meaning to your content. Consider how different media can add to the way that your pages communicate information.
