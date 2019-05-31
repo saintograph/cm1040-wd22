@@ -4,9 +4,12 @@ Team assignment
 ## Contribution Guidelines
 To keep things simple, instead of forking this repository and submitting pull-requests, every authorized collaborator has write access to this single repository. However, instead of directly pushing to the master branch, please create a branch using the scheme `dev-<your username>` and push your commits there. Finally, you can raise a PR into the master branch which will be merged after a minimal review process.
 
+## Getting Started
+The project is based on the [HTML5 Boilerplate](https://html5boilerplate.com) template. Please have a look at the [docs](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/TOC.md) to get an idea of how the project is structured, and the purpose of each file.
+
 ## 3.4.3 Team assignment. Part 2
 ### Discussions Document
-Discussions are tracked in this [Google Doc](https://docs.google.com/document/d/1fJ3PfOeJkO4sUfozanAx-kHe0t5HLjWwcSEIGTu5heE/edit#)
+Discussions are tracked in this [Google Doc](https://docs.google.com/document/d/1fJ3PfOeJkO4sUfozanAx-kHe0t5HLjWwcSEIGTu5heE/edit#).
 
 ### Instructions
 #### Markup wireframes with HTML
