@@ -23,50 +23,55 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <section id="hero" role="contentinfo" aria-label="content about theme park rides and facilities">
-    <img src="./img/hero.jpg" alt="theme park at night"/>
-  </section>
-  <section id="attractions-main" role="contentinfo" aria-label="content about theme park rides and facilities">
-    <div role="link">
-      <h3>Restaurants</h3>
-      <img src="./img/restaurants.jpg" alt="theme park restaurants"/>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-      </p>
+  <div w3-include-html="partials/header.html"></div>
+  <div w3-include-html="partials/sidebar.html"></div>
+  <div class="content">
+    <section id="hero" role="contentinfo" aria-label="content about theme park rides and facilities">
+      <img src="./img/hero.jpg" alt="theme park at night"/>
+    </section>
+    <section id="attractions-main" role="contentinfo" aria-label="content about theme park rides and facilities">
+      <div role="link">
+        <h3>Restaurants</h3>
+        <img src="./img/restaurants.jpg" alt="theme park restaurants"/>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+        </p>
+        </div>
+      <div role="link">
+        <h3>Rides</h3>
+        <img src="./img/rides.jpg" alt="theme park rides"/>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+        </p>
       </div>
-    <div role="link">
-      <h3>Rides</h3>
-      <img src="./img/rides.jpg" alt="theme park rides"/>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-      </p>
-    </div>
-    <div role="link">
-      <h3>Facilities</h3>
-      <img src="./img/facilities.jpg" alt="theme park facilities"/>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-      </p>
-    </div>
-    <div role="link">
-      <h3>Programmes</h3>
-      <img src="./img/programmes.jpg" alt="theme park programmes"/>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-      </p>
-    </div>
-  </section>
-  <section  id="mainCallToAction" role="contentinfo" aria-label="content about theme park rides and facilities">
-    <img src="./img/call_to_action.jpg" alt="theme park daytime" />
-    <button type="button">Buy Tickets</button>
-  </section>
+      <div role="link">
+        <h3>Facilities</h3>
+        <img src="./img/facilities.jpg" alt="theme park facilities"/>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+        </p>
+      </div>
+      <div role="link">
+        <h3>Programmes</h3>
+        <img src="./img/programmes.jpg" alt="theme park programmes"/>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+        </p>
+      </div>
+    </section>
+    <section  id="mainCallToAction" role="contentinfo" aria-label="content about theme park rides and facilities">
+      <img src="./img/call_to_action.jpg" alt="theme park daytime" />
+      <button type="button">Buy Tickets</button>
+    </section>
+  </div>
+  <div w3-include-html="partials/footer.html"></div>
 
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/htmlInclude.js"></script> 
+  <script src="js/htmlInclude.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -76,7 +81,7 @@
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   <script>
     includeHTML();
-  </script> 
+  </script>
 </body>
 
 </html>
