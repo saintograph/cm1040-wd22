@@ -28,6 +28,34 @@
  * Customize the background color to match your design.
  */
 
+ /* site colour scheme  */
+:root {  
+  --olive: #272727;
+  --grey: #f7f6e9;
+  --gold: #ad9260;
+}
+
+/*
+  usage example of color variables:
+  
+  color: var(--white);
+  background: var(--olive);
+*/
+
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik', sans-serif;
+  color: var(--olive);
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
