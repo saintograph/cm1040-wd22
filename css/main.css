@@ -13,7 +13,7 @@
    ========================================================================== */
 
    html {
-    color: #222;
+    color: var(--offwhite);
     font-size: 1em;
     line-height: 1.4;
 }
@@ -29,15 +29,27 @@
  */
 
  /* site colour scheme  */
+<<<<<<< HEAD
 :root {  
   --olive: #272727;
   --grey: #f7f6e9;
   --gold: #ad9260;
+=======
+:root {
+  --olive: #272727;
+  --grey: #f7f6e9;
+  --gold: #ad9260;
+  --offwhite: #f7f6e9;
+>>>>>>> upstream/master
 }
 
 /*
   usage example of color variables:
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> upstream/master
   color: var(--white);
   background: var(--olive);
 */
@@ -45,11 +57,19 @@
 
 body {
   font-family: 'Karla', sans-serif;
+<<<<<<< HEAD
+=======
+  background-color: var(--olive);
+>>>>>>> upstream/master
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rubik', sans-serif;
+<<<<<<< HEAD
   color: var(--olive);
+=======
+  color: var(--gold);
+>>>>>>> upstream/master
 }
 
 p {
@@ -135,18 +155,21 @@ textarea {
       margin: 0;
       padding: 0;
       width: 200px;
-      background-color: #f1f1f1;
-      height: 100%;
       overflow: auto;
       float: left;
+      position: fixed;
+      top: 69px;
+      bottom: 0;
     }
 
     /* Sidebar links */
     .sidebar a {
       display: block;
-      color: black;
+      color: var(--offwhite);
       padding: 16px;
       text-decoration: none;
+      font-size: 21px;
+      font-weight: bold;
     }
 
     /* Active/current link */
@@ -157,12 +180,12 @@ textarea {
 
     /* Links on mouse-over */
     .sidebar a:hover:not(.active) {
-      background-color: #555;
-      color: white;
+      color: var(--gold);
     }
 
     /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
     div.content {
+      margin-top: 80px;
       margin-left: 200px;
       padding: 1px 16px;
     }
@@ -170,13 +193,16 @@ textarea {
     /* Style the header with a grey background and some padding */
     .header {
       overflow: hidden;
-      background-color: #f1f1f1;
+      background-color: var(--gold);
       padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
 
     /* Style the header links */
     .header a {
-      color: black;
+      color: var(--offwhite);
       text-align: center;
       padding: 12px;
       text-decoration: none;
@@ -187,19 +213,13 @@ textarea {
 
     .header small {
       padding-left: 12px;
-      color: #AAA;
+      color: var(--offwhite);
     }
 
     /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
     .header a.logo {
       font-size: 25px;
       font-weight: bold;
-    }
-
-    /* Change the background color on mouse-over */
-    .header a:hover {
-      background-color: #ddd;
-      color: black;
     }
 
     /* Style the active/current link*/
@@ -236,7 +256,7 @@ textarea {
       /*left: 0;
       bottom: 0;*/
       width: 100%;
-      background-color: #f1f1f1;
+      background-color: var(--grey);
       color: black;
       text-align: center;
     }
@@ -369,11 +389,14 @@ textarea {
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
-      height: auto;
-      position: relative;
+      height: 70px;
+      background-color: var(--olive);
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+    div.content {
+      margin-left: 0;
+      margin-top: 120px;
+    }
   }
 
 /* ==========================================================================
