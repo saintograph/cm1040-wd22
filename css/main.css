@@ -142,6 +142,7 @@ textarea {
       position: fixed;
       top: 69px;
       bottom: 0;
+      background-color: var(--olive);
     }
 
     /* Sidebar links */
@@ -170,6 +171,12 @@ textarea {
       margin-top: 80px;
       margin-left: 200px;
       padding: 1px 16px;
+    }
+
+	/* Animated Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    div.animatedcontent {
+      padding: 1px 16px;
+	  animation: bounceIn 2s;
     }
 
     /* Style the header with a grey background and some padding */
@@ -236,11 +243,18 @@ textarea {
     .footer {
       /*position: fixed;*/
       /*left: 0;
-      bottom: 0;*/
+      bottom: 0;
       width: 100%;
       background-color: var(--grey);
       color: black;
+      text-align: center;*/
+	  color: var(--offwhite);
       text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
     }
 
  /* ==========================================================================
@@ -380,6 +394,22 @@ textarea {
       margin-top: 120px;
     }
   }
+
+	@keyframes bounceIn {
+		0% {
+		transform: scale(0.1);
+		opacity: 0;
+	  }
+	  60% {
+		transform: scale(1.2);
+		opacity: 1;
+	  }
+	  100% {
+		transform: scale(1);
+	 }
+	}
+
+
 
 /* ==========================================================================
    Print styles.
