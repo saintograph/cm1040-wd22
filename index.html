@@ -5,14 +5,13 @@
   <meta charset="utf-8">
   <title>WickedRyde</title>
   <meta name="description" content="Absolutely mental rides for demented thrillseekers.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="manifest" href="./site.webmanifest">
   <link rel="apple-touch-icon" href="./icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -24,53 +23,59 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="row">
-    <div w3-include-html="./partials/header.html"></div>
-  </div>
-  <div class="row">
-    <div w3-include-html="./partials/sidebar.html"></div>
-    <div class="content">
-      <section id="hero" role="contentinfo" aria-label="content about theme park rides and facilities">
-        <img src="./img/hero.jpg" alt="theme park at night"/>
-      </section>
-      <section id="attractions-main" role="contentinfo" aria-label="content about theme park rides and facilities">
-        <div role="link">
-          <h3>Restaurants</h3>
-          <img src="./img/restaurants.jpg" alt="theme park restaurants"/>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-          </p>
-          </div>
-        <div role="link">
-          <h3>Rides</h3>
-          <img src="./img/rides.jpg" alt="theme park rides"/>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-          </p>
-        </div>
-        <div role="link">
-          <h3>Facilities</h3>
-          <img src="./img/facilities.jpg" alt="theme park facilities"/>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-          </p>
-        </div>
-        <div role="link">
-          <h3>Programmes</h3>
-          <img src="./img/programmes.jpg" alt="theme park programmes"/>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus. Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
-          </p>
-        </div>
-      </section>
-      <section  id="mainCallToAction" role="contentinfo" aria-label="content about theme park rides and facilities">
-        <img src="./img/call_to_action.jpg" alt="theme park daytime" />
-        <button type="button">Buy Tickets</button>
-      </section>
+  <div class='page'>
+    <div class="row">
+      <div w3-include-html="./partials/header.html"></div>
     </div>
-  </div>
-  <div class="row">
-    <div w3-include-html="./partials/footer.html"></div>
+    <div class="row">
+      <div w3-include-html="./partials/sidebar.html"></div>
+      <div class="content">
+        <section id="hero" role="contentinfo" aria-label="content about theme park rides and facilities">
+          <img class="hero-img" src="./img/hero.jpg" alt="theme park at night" />
+        </section>
+        <section id="attractions-main" role="contentinfo" aria-label="content about theme park rides and facilities">
+          <div role="link">
+            <h3>Restaurants</h3>
+            <img src="./img/restaurants.jpg" alt="theme park restaurants" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus.
+              Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+            </p>
+          </div>
+          <div role="link">
+            <h3>Rides</h3>
+            <img src="./img/rides.jpg" alt="theme park rides" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus.
+              Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+            </p>
+          </div>
+          <div role="link">
+            <h3>Facilities</h3>
+            <img src="./img/facilities.jpg" alt="theme park facilities" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus.
+              Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+            </p>
+          </div>
+          <div role="link">
+            <h3>Programmes</h3>
+            <img src="./img/programmes.jpg" alt="theme park programmes" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex sed mi pulvinar iaculis a ut metus.
+              Etiam aliquam hendrerit posuere. Proin molestie risus a arcu commodo volutpat.
+            </p>
+          </div>
+        </section>
+        <section id="mainCallToAction" role="contentinfo" aria-label="content about theme park rides and facilities">
+          <img src="./img/call_to_action.jpg" alt="theme park daytime" />
+          <button type="button">Buy Tickets</button>
+        </section>
+      </div>
+    </div>
+    <div class="row">
+      <div w3-include-html="./partials/footer.html"></div>
+    </div>
   </div>
 
   <script src="./js/vendor/modernizr-3.7.1.min.js"></script>
@@ -80,6 +85,7 @@
   <script src="./js/htmlInclude.js"></script>
   <script>
     includeHTML();
+
   </script>
 </body>
 
