@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang= "en">
-
+<html class="no-js" lang="">
 <head>
     <title>Attractions | WickedRyde</title>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <meta name="description" content="The attractions of the theme park">
     <meta name="author" content="cm1040-wd22: Hendrik Alberts">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,77 +14,89 @@
 	  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
 		<link rel="stylesheet" href="../css/main.css">
+=======
+    <meta name="description" content="The attractions of WickedRyde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+	<meta name="author" content="cm1040-wd22: Hendrik Alberts">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="../icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+    <meta name="keywords" content="'theme park',rides,fun,attractions">	
+	<meta name="theme-color" content="#fafafa">
+>>>>>>> upstream/master
 </head>
 
 <body>
 	<div class="row">
-    <div w3-include-html="../partials/header.html"></div>
-  </div>
-
+		<div w3-include-html="../partials/header.html"></div>
+	</div>
 	<!-- cm1040-wd22 Hendrik Alberts: This is the first row and the slideshow section at the top of the page -->
 	<div class="row">
 		<div w3-include-html="../partials/sidebar.html"></div>
 		<div class="content">
-			<section id="carousel" style="max-width:500px">
-				<img class="mySlides" src="../img/attractionpic1.jpg" style="width:100%">
-				<img class="mySlides" src="../img/attractionpic2.jpg" style="width:100%">
-				<img class="mySlides" src="../img/attractionpic3.jpg" style="width:100%">
-				<img class="mySlides" src="../img/attractionpic4.jpg" style="width:100%">
-				<img class="mySlides" src="../img/attractionpic5.jpg" style="width:100%">
-				<img class="mySlides" src="../img/attractionpic6.jpg" style="width:100%">
-			</section>
-			<section id="booking">
-				<h1>Booking Form</h1>
-				<form>
-					<label for="fname">First Name</label>
-					<input type="text" id="fname" name="firstname" placeholder="Please enter your first name...">
-
-					<br><label for="lname">Last Name</label>
-					<input type="text" id="lname" name="lastname" placeholder="Please enter your last name...">
-					<br><input type="submit" value="Submit">
-				</form>
-			</section>
-			<section id="more_info">
-				<div class="column">
-					<h1>More info 1</h1>
-					<p>This collumn will contain more info about the theme park. This is the first info block.</p>
-			  </div>
-
-			  <div class="column">
-					<h1>More info 2</h1>
-					<p>This collumn will contain more info about the theme park. This is the second info block.</p>
-			  </div>
-			</section>
-			<section id="other_attractions">
-				<h1>Other Attractions</h1>
-				<div class="gallery">
-					<a target="_blank" href="../img/otherattractionpic1.jpg">
-						<img src="../img/otherattractionpic1.jpg" alt="Swings" width="600" height="400">
-					</a>
-					<div class="desc">Other Attraction 1</div>
-				</div>
-
-				<div class="gallery">
-					<a target="_blank" href="../img/otherattractionpic2.jpg">
-						<img src="../img/otherattractionpic2.jpg" alt="Roller Coaster 1" width="600" height="400">
-					</a>
-					<div class="desc">Other Attraction 2</div>
-				</div>
-			</section>
+			<div class="page-content">
+				<section id="carousel" role="main" style="max-width:500px">
+					<div class="animatedcontent">
+						<h1>Rides!</h1>
+					</div>
+					<img class="mySlides" src="../img/attractionpic1.jpg" alt="Ride1" style="width:100%">
+					<img class="mySlides" src="../img/attractionpic2.jpg" alt="Ride2" style="width:100%">
+					<img class="mySlides" src="../img/attractionpic3.jpg" alt="Ride3" style="width:100%">
+					<img class="mySlides" src="../img/attractionpic4.jpg" alt="Ride4" style="width:100%">
+					<img class="mySlides" src="../img/attractionpic5.jpg" alt="Ride5" style="width:100%">
+					<img class="mySlides" src="../img/attractionpic6.jpg" alt="Ride6" style="width:100%">
+				</section>
+				<section id="booking" role="main">
+					<h2>Booking Form</h2>
+					<form>
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="first name...">
+						<br><label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="last name...">
+						<br><input type="submit" value="Submit">
+					</form>
+				</section>
+				<section id="more_info" role="main">
+					
+					<div class="column">
+						<h2>More info 1</h2>
+						<p>This collumn will contain more info about the theme park. This is the first info block.</p>
+					</div>
+	
+					<div class="column">
+						<h2>More info 2</h2>
+						<p>This collumn will contain more info about the theme park. This is the second info block.</p>
+					</div>
+				</section>
+				<section id="other_attractions" role="main">
+					<h2>Other Attractions</h2>
+					<div class="gallery">
+						<a target="_blank" href="../img/otherattractionpic1.jpg">
+							<img src="../img/otherattractionpic1.jpg" alt="Swings" width="600" height="400">
+						</a>
+						<div class="desc">Other Attraction 1</div>
+					</div>
+	
+					<div class="gallery">
+						<a target="_blank" href="../img/otherattractionpic2.jpg">
+							<img src="../img/otherattractionpic2.jpg" alt="Roller Coaster 1" width="600" height="400">
+						</a>
+						<div class="desc">Other Attraction 2</div>
+					</div>
+				</section>
+			</div>
+			<div w3-include-html="../partials/footer.html"></div>
 		</div>
 	</div>
-  <div class="row">
-    <div w3-include-html="../partials/footer.html"></div>
-  </div>
-
-  <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="../js/vendor/jquery-3.3.1.min.js"></script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
-  <script src="../js/htmlInclude.js"></script>
-  <script>
-    includeHTML();
-  </script>
+	<script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+	<script src="../js/vendor/jquery-3.3.1.min.js"></script>
+	<script src="../js/plugins.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/htmlInclude.js"></script>
+	<script> includeHTML(); </script>
 	<script>
 		var myIndex = 0;
 		carousel();

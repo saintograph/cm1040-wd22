@@ -1,34 +1,50 @@
-<div class="footer">
-  <section id="footerNewsletter" role="form" aria-label="newsletter signup">
-    <form>
-      Email:
-      <input type="text" name="email" value="Please enter your email address">
-      <input type="radio" name="consent" value="">
-      Yes, please subscribe me to any updates from the theme park. I agree that my data is kept private and never shared
-      with any third-party in accordance to law.
-    </form>
-  </section>
-  <section id="footerContact" role="contentinfo" aria-label="address and email">
-    <div>
-      <p>
-        Curabitur molestie maximus nulla </br>
-        Aenean non quam pulvinar </br>
-        nunc dictum rhoncus a eu turpis </br>
-        University of London </br>
-      </p>
-      <a href="mailto:info@themepark.com">info@themepark.com</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Find our theme park</a>
-      <a href="#">Download our app.</a>
-    </div>
-  </section>
-  <section id="footerOpening" role="contentinfo" aria-label="opening hours">
-    <div>
-      <p>
-        We are open:
-        <p>Monday - Friday, 10am - 8pm</p>
-        <p>Saturday - Sunday, 10am - 10pm</p>
-      </p>
-    </div>
-  </section>
-</div>
+<!-- The Footer -->
+<footer class="footer">
+	<section id="footerNewsletter" role="form" aria-label="newsletter signup">
+		<form>
+			<div>
+				<label for="email">
+						Email:
+				</label>
+				<input type="text" name="email" id="email" value="Please enter your email address">
+			</div>
+			<div class="consent">
+				<input type="radio" name="consent" id="consent" value="">
+				<label for="consent">
+						Yes, please subscribe me to any updates from the theme park. I agree that my data is kept private and never shared
+						with any third-party in accordance to law.
+				</label>
+			</div>
+		</form>
+	</section>
+	<div>
+		<a href="mailto:info@themepark.com">Mail Us</a>
+		•
+		<a href="#">Contact Us</a>
+		•
+		<a href="#">Location</a>
+		•
+		<a href="#">Download our App</a>
+	</div>
+	<div class="row">
+		<section id="footerContact" role="contentinfo" aria-label="address and email">
+			<div>
+				<p>
+					Curabitur molestie maximus nulla </br>
+					Aenean non quam pulvinar </br>
+					nunc dictum rhoncus a eu turpis </br>
+					University of London </br>
+				</p>
+			</div>
+		</section>
+		<section id="footerOpening" role="contentinfo" aria-label="opening hours">
+			<div>
+				<p>
+				We are open:
+				<p>Monday - Friday, 10am - 8pm</p>
+				<p>Saturday - Sunday, 10am - 10pm</p>
+				</p>
+			</div>
+		</section>
+	</div>
+</footer>
